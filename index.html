@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Vue + Vue-Router + Webpack</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		a{
+			color: #4078c0;
+		}
+		.app {
+			width: 640px;
+			margin: 0 auto;
+			background-color: #fafafa;
+		}
+		.app .nav {
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="app" class="app">
+		<div class="nav">
+			<h1>Vue + Vue-Router + Webpack</h1>
+			<router-link to="/">Go to Home</router-link>
+			<router-link to="r1">Go to r1</router-link>
+			<router-link to="r2">Go to r2</router-link>
+		</div>
+		<h3>Content View</h3>
+		<router-view></router-view>
+		
+	</div>
+</body>
+<script src="./dist/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="./dist/build.js" type="text/javascript" charset="utf-8"></script>
+</html>
