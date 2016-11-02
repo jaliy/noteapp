@@ -517,12 +517,6 @@ webpackJsonp([2,4],[
 
 	__webpack_require__(19);
 	exports.default = {
-		data: function data() {
-			return {
-				myMsg: ""
-			};
-		},
-
 		components: {
 			nvHead: __webpack_require__(9)
 		}
@@ -542,7 +536,7 @@ webpackJsonp([2,4],[
 	  return _h('div', [_h('nv-head', {
 	    attrs: {
 	      "is-sub-nav": true,
-	      "title": "myMsg"
+	      "title": "Router 1"
 	    }
 	  }), " ", _m(0)])
 	}},staticRenderFns: [function (){with(this) {
