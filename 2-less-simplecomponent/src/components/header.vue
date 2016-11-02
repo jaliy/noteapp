@@ -1,7 +1,7 @@
 <template>
 	<header class="head">
 		<a v-if="isSubNav" class="btn-back" v-on:click="goHome" href="javascript:;">&lt;</a>
-		<h1>Vue + Vue-Router + Webpack</h1>
+		<h1>{{title}}</h1>
 	</header>
 </template>
 <style lang="less">
@@ -37,7 +37,8 @@
 <script type="text/javascript">
 	export default {
 		props : {
-			isSubNav: Boolean
+			isSubNav: Boolean,
+			title:String
 		},
 		methods : {
 			goHome() {

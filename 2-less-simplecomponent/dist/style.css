@@ -1,95 +1,175 @@
-html, body {
-    height: 100%;
-    border: 0;
-    font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  height: 100%;
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
-
-div, span, object, iframe, img, table, caption, thead, tbody,
-tfoot, tr, tr, td, article, aside, canvas, details, figure, hgroup, menu,
-nav, footer, header, section, summary, mark, audio, video {
-    border: 0;
-    margin: 0;
-    padding: 0;
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
-
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cit, code,
-del, dfn, em, ins, q, samp, small, strong, sub, sup, b, i, hr, dl, dt, dd,
-ol, ul, li, fieldset, legend, label {
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
 }
-
-article, aside, canvas, figure, figure img, figcaption, hgroup,
-footer, header, nav, section, audio, video {
-    display: block;
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
 }
-
 table {
-    border-collapse: separate;
-    border-spacing: 0;
-    caption, th, td {
-        text-align: left;
-        vertical-align: middle;
-    }
+  border-collapse: separate;
+  border-spacing: 0;
 }
-li{
-    list-style: none;
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
 }
-a{
-    text-decoration: none;
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 a img {
-    border: 0;
+  border: 0;
 }
-
 :focus {
-    outline: 0;
+  outline: 0;
 }
-*{
-    -webkit-box-sizing: border-box;
+* {
+  -webkit-box-sizing: border-box;
 }
-textarea{
-    resize: none;
-    -webkit-appearance: none;
+textarea {
+  resize: none;
+  -webkit-appearance: none;
 }
-input{
-    -webkit-appearance: none;
+input {
+  -webkit-appearance: none;
 }
 select {
-    -webkit-appearance: none;
-    background-color: #fff;
+  -webkit-appearance: none;
+  background-color: #fff;
 }
 html {
-    font-size : 20px;
+  font-size: 20px;
 }
-@media only screen and (min-width: 401px){
-    html {
-        font-size: 25px !important;
-    }
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 25px !important;
+  }
 }
-@media only screen and (min-width: 428px){
-    html {
-        font-size: 26.75px !important;
-    }
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 26.75px !important;
+  }
 }
-@media only screen and (min-width: 481px){
-    html {
-        font-size: 30px !important; 
-    }
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 30px !important;
+  }
 }
-@media only screen and (min-width: 569px){
-    html {
-        font-size: 35px !important; 
-    }
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 35px !important;
+  }
 }
-@media only screen and (min-width: 641px){
-    html {
-        font-size: 40px !important; 
-    }
+@media only screen and (min-width: 641px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+.nav a {
+  color: #42B983;
+}
+.r1 {
+  padding: 40px 0;
+  background: yellow;
+  color: #000;
+}
+.r2 {
+  padding: 40px 0;
+  background: #eee;
+  color: #666;
 }
