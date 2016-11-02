@@ -25,10 +25,10 @@ webpackJsonp([1,4],[
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "E:\\github\\jaliy.github.io\\noteapp\\src\\components\\home.vue"
+	__vue_options__.__file = "E:\\github\\noteapp\\1-combine\\src\\components\\home.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-479a16c8"
+	__vue_options__._scopeId = "data-v-5448f1d2"
 
 	/* hot reload */
 	if (false) {(function () {
@@ -37,9 +37,9 @@ webpackJsonp([1,4],[
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-479a16c8", __vue_options__)
+	    hotAPI.createRecord("data-v-5448f1d2", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-479a16c8", __vue_options__)
+	    hotAPI.reload("data-v-5448f1d2", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] home.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -63,8 +63,8 @@ webpackJsonp([1,4],[
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-479a16c8&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./home.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-479a16c8&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./home.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-5448f1d2&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./home.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-5448f1d2&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./home.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -82,7 +82,7 @@ webpackJsonp([1,4],[
 
 
 	// module
-	exports.push([module.id, "\n.home[data-v-479a16c8] {\n\tpadding: 40px 0;\n\tbackground-color: #eee;\n}\n", ""]);
+	exports.push([module.id, "\n.home[data-v-5448f1d2] {\n\tpadding: 40px 0;\n\tbackground-color: #eee;\n}\n", ""]);
 
 	// exports
 
@@ -379,7 +379,7 @@ webpackJsonp([1,4],[
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-479a16c8", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-5448f1d2", module.exports)
 	  }
 	}
 

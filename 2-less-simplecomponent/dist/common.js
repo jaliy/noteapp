@@ -88,7 +88,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/noteapp/1-combine/dist/";
+/******/ 	__webpack_require__.p = "/noteapp/2-less-simplecomponent/dist/";
 /******/ })
 /************************************************************************/
 /******/ ([]);

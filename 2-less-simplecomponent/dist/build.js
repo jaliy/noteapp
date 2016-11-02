@@ -28,10 +28,10 @@ webpackJsonp([0,4],[
 	_vue2.default.use(_vueRouter2.default);
 
 	var router = new _vueRouter2.default({
+	   //default to hash, availble value[hash, history]
+	   mode: 'hash',
 
-	   mode: 'history',
-
-	   base: '/noteapp/1-combine/',
+	   base: '/noteapp/2-less-simplecomponent',
 
 	   // （缩写）相当于 routes: routes
 	   routes: _routes2.default
@@ -9477,7 +9477,7 @@ webpackJsonp([0,4],[
 	    name: 'r1',
 	    component: function component(resolve) {
 	        __webpack_require__.e/* nsure */(2, function () {
-	            resolve(__webpack_require__(11));
+	            resolve(__webpack_require__(18));
 	        });
 	    }
 	}, {
@@ -9485,7 +9485,7 @@ webpackJsonp([0,4],[
 	    name: 'r2',
 	    component: function component(resolve) {
 	        __webpack_require__.e/* nsure */(3, function () {
-	            resolve(__webpack_require__(15));
+	            resolve(__webpack_require__(23));
 	        });
 	    }
 	}, {

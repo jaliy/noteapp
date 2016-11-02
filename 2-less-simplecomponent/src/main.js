@@ -5,10 +5,10 @@ import routes from './routes';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-	
-    mode: 'history',
+	//default to hash, availble value[hash, history]
+    mode: 'hash',
     
-	base: '/noteapp/1-combine/',
+	base: '/noteapp/2-less-simplecomponent',
 	
     // （缩写）相当于 routes: routes
     routes
