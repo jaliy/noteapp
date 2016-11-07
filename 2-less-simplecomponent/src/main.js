@@ -1,8 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
+import FastClick from 'fastclick';
 
 Vue.use(VueRouter);
+
+FastClick.attach(document.body);
 
 const router = new VueRouter({
 	//default to hash, availble value[hash, history]
