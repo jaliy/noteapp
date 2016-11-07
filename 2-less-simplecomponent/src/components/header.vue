@@ -6,7 +6,7 @@
 </template>
 <style lang="less">
 	/**less variable define*/
-	@h-bar : 1.6rem;
+	@h-bar : .8rem;
 	
 	/**stylesheet*/
 	.head {
@@ -20,17 +20,17 @@
 	        left: 0;
 	        top: 0;
 	        display: inline-block;
-	        width: 1.5rem;
+	        width: 1rem;
 	        height: @h-bar;
 	        line-height: @h-bar;
 	        color: #fff;
 	        font-weight: bold;
 	        text-align: center;
-	        font-size: 1.4rem;
+	        font-size: .8rem;
 	    }
 	    h1 {
 	        text-align: center;
-	        font-size: 0.8rem;
+	        font-size: 0.4rem;
 	    }
 	}
 </style>

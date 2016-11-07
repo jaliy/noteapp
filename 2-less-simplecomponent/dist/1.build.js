@@ -168,7 +168,7 @@ webpackJsonp([1,4],[
 
 
 	// module
-	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: relative;\n  height: 1.6rem;\n  line-height: 1.6rem;\n  background: #42B983;\n  color: #fff;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: inline-block;\n  width: 1.5rem;\n  height: 1.6rem;\n  line-height: 1.6rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: 1.4rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.8rem;\n}\n", ""]);
+	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: relative;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: inline-block;\n  width: 1rem;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n}\n", ""]);
 
 	// exports
 
