@@ -954,6 +954,9 @@ webpackJsonp([4,6],[
 	var alert = function alert() {
 		var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
+		var title = options.title || "提示";
+		var message = typeof options === 'string' ? options : options.message;
+
 		return new Message(Object.assign({
 			isConfirm: false
 		}, {
