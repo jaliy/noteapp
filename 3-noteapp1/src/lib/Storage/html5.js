@@ -25,6 +25,14 @@ export default class HTML5Storage extends Storage {
 		return false;
 	}
 	deleteOne(idKey) {
+		let records=this.findAll();
+		for(let i=0;i<records.length; i++) {
+			if(records[i].id===idKey) {
+				records.splice(i,1);
+				super._sync(records);
+			}
+		}
+		return true;
 	}
 	findAll() {
 		super._init();

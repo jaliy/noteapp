@@ -10,6 +10,7 @@
 </template>
 <script type="text/javascript">
 	
+    import alert,{confirm} from '../components/Box';
 	import HTML5Storage from '../lib/Storage/html5';
 	
 	let sto = new HTML5Storage();
@@ -32,12 +33,18 @@
 				if(this.note.textValue==="" || this.note.title===""){
 					return ;
 				}
+				let msg=null;
 				if(this.note.id==="") {
 					let id = sto.insertOne(this.note);
 					this.note.id=id;
+					msg = "添加成功！";
 				}else {
 					sto.updateOne(this.note);
+					msg = "更新成功！";
 				}
+				alert(msg).then(() => {
+					this.$router.push("home");
+				});
 			}
 		},
 		beforeRouteLeave (to, from, next) {

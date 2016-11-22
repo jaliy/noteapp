@@ -17,7 +17,7 @@
         line-height: @h-bar;
         background: @color-base;
         color: #fff;
-        z-index: 9999;
+        z-index: 5;
 	    .btn-back {
 	        position: absolute;
 	        left: 0;

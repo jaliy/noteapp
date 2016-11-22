@@ -199,16 +199,6 @@ html {
 .page-home .list {
   margin-bottom: 1rem;
 }
-.page-home .list li {
-  padding: 0.1rem;
-  border-bottom: 1px solid #ddd;
-  text-overflow: ellipsis;
-  word-break: break-all;
-}
-.page-home .list .link {
-  display: block;
-  color: #333;
-}
 .page-home .list .empty {
   padding: 2rem 0;
   text-align: center;

@@ -69,7 +69,16 @@ webpackJsonp([5,6],[
 			}
 		}, {
 			key: 'deleteOne',
-			value: function deleteOne(idKey) {}
+			value: function deleteOne(idKey) {
+				var records = this.findAll();
+				for (var i = 0; i < records.length; i++) {
+					if (records[i].id === idKey) {
+						records.splice(i, 1);
+						_get(HTML5Storage.prototype.__proto__ || Object.getPrototypeOf(HTML5Storage.prototype), '_sync', this).call(this, records);
+					}
+				}
+				return true;
+			}
 		}, {
 			key: 'findAll',
 			value: function findAll() {
@@ -482,7 +491,7 @@ webpackJsonp([5,6],[
 
 
 	// module
-	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: relative;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n  z-index: 9999;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: inline-block;\n  width: 1rem;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n}\n", ""]);
+	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: relative;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n  z-index: 5;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: inline-block;\n  width: 1rem;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n}\n", ""]);
 
 	// exports
 
@@ -933,7 +942,7 @@ webpackJsonp([5,6],[
 
 
 	// module
-	exports.push([module.id, "\n.menu-buttons {\n  position: fixed;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  z-index: 9999;\n}\n.menu-buttons ul {\n  height: 1rem;\n}\n.menu-buttons li {\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  /* Firefox */\n  -webkit-box-sizing: border-box;\n  /* Safari */\n  float: left;\n  width: 100%;\n  height: 1rem;\n  line-height: 1rem;\n  border-left: 1px solid #fff;\n  background-color: #42B983;\n}\n.menu-buttons li.first-child {\n  border-left: none;\n}\n.menu-buttons li a {\n  font-size: .32rem;\n  font-weight: bold;\n  text-align: center;\n  display: block;\n  color: #fff;\n}\n.menu-buttons li a:before {\n  content: '+';\n  font-size: .4rem;\n}\n", ""]);
+	exports.push([module.id, "\n.menu-buttons {\n  position: fixed;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  z-index: 5;\n}\n.menu-buttons ul {\n  height: 1rem;\n}\n.menu-buttons li {\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  /* Firefox */\n  -webkit-box-sizing: border-box;\n  /* Safari */\n  float: left;\n  width: 100%;\n  height: 1rem;\n  line-height: 1rem;\n  border-left: 1px solid #fff;\n  background-color: #42B983;\n}\n.menu-buttons li.first-child {\n  border-left: none;\n}\n.menu-buttons li a {\n  font-size: .32rem;\n  font-weight: bold;\n  text-align: center;\n  display: block;\n  color: #fff;\n}\n.menu-buttons li a:before {\n  content: '+';\n  font-size: .4rem;\n}\n", ""]);
 
 	// exports
 
@@ -1039,19 +1048,39 @@ webpackJsonp([5,6],[
 /* 38 */,
 /* 39 */,
 /* 40 */,
-/* 41 */
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 
 	/* styles */
-	__webpack_require__(42)
+	__webpack_require__(62)
 
 	/* script */
-	__vue_exports__ = __webpack_require__(44)
+	__vue_exports__ = __webpack_require__(64)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(46)
+	var __vue_template__ = __webpack_require__(66)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1085,13 +1114,13 @@ webpackJsonp([5,6],[
 
 
 /***/ },
-/* 42 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(43);
+	var content = __webpack_require__(63);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(19)(content, {});
@@ -1111,7 +1140,7 @@ webpackJsonp([5,6],[
 	}
 
 /***/ },
-/* 43 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(18)();
@@ -1125,7 +1154,7 @@ webpackJsonp([5,6],[
 
 
 /***/ },
-/* 44 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1138,7 +1167,7 @@ webpackJsonp([5,6],[
 
 	var _html2 = _interopRequireDefault(_html);
 
-	var _util = __webpack_require__(45);
+	var _util = __webpack_require__(65);
 
 	var _util2 = _interopRequireDefault(_util);
 
@@ -1192,7 +1221,7 @@ webpackJsonp([5,6],[
 	};
 
 /***/ },
-/* 45 */
+/* 65 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -1210,7 +1239,7 @@ webpackJsonp([5,6],[
 	};
 
 /***/ },
-/* 46 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){with(this) {

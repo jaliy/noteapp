@@ -1,9 +1,9 @@
 <template>
 	<div class="page-home">
-		<nv-head :is-sub-nav="false" title="首页"></nv-head>
+		<nv-head :is-sub-nav="false" title="老王笔记"></nv-head>
 		<div class="list">
 			<ul v-if="list.length>0">
-				<li v-for="l in list"><router-link class="link" :to="{name:'detail',params:{id:l.id}}">{{l.title}}</router-link></li>
+				<delete-row v-for="l in list" :title="l.title" :id="l.id"></delete-row>
 			</ul>
 			<div class="empty" v-if="list.length==0">
 				暂无笔记
@@ -28,7 +28,8 @@
 		},
 		components : {
 			nvHead : require("../components/header.vue"),
-			menuButton: require("../components/menubutton.vue")
+			menuButton: require("../components/menubutton.vue"),
+			deleteRow: require("../components/deleterow.vue")
 		},
 		mounted() {
 			this.list = sto.findAll().reverse();

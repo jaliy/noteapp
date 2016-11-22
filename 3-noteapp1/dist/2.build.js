@@ -1,20 +1,6 @@
-webpackJsonp([2,6],[
-/* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */,
-/* 15 */
+webpackJsonp([2,6],{
+
+/***/ 15:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -60,7 +46,8 @@ webpackJsonp([2,6],[
 
 
 /***/ },
-/* 16 */
+
+/***/ 16:
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -86,7 +73,8 @@ webpackJsonp([2,6],[
 	}
 
 /***/ },
-/* 17 */
+
+/***/ 17:
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(18)();
@@ -94,13 +82,14 @@ webpackJsonp([2,6],[
 
 
 	// module
-	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: relative;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n  z-index: 9999;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: inline-block;\n  width: 1rem;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n}\n", ""]);
+	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: relative;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n  z-index: 5;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: inline-block;\n  width: 1rem;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 18 */
+
+/***/ 18:
 /***/ function(module, exports) {
 
 	/*
@@ -156,7 +145,8 @@ webpackJsonp([2,6],[
 
 
 /***/ },
-/* 19 */
+
+/***/ 19:
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -378,7 +368,8 @@ webpackJsonp([2,6],[
 
 
 /***/ },
-/* 20 */
+
+/***/ 20:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -441,7 +432,8 @@ webpackJsonp([2,6],[
 	};
 
 /***/ },
-/* 21 */
+
+/***/ 21:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){with(this) {
@@ -465,22 +457,17 @@ webpackJsonp([2,6],[
 	}
 
 /***/ },
-/* 22 */,
-/* 23 */,
-/* 24 */,
-/* 25 */,
-/* 26 */,
-/* 27 */,
-/* 28 */
+
+/***/ 48:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 
 	/* script */
-	__vue_exports__ = __webpack_require__(29)
+	__vue_exports__ = __webpack_require__(49)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(31)
+	var __vue_template__ = __webpack_require__(51)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -514,7 +501,8 @@ webpackJsonp([2,6],[
 
 
 /***/ },
-/* 29 */
+
+/***/ 49:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -529,7 +517,7 @@ webpackJsonp([2,6],[
 	//
 	//
 
-	__webpack_require__(30);
+	__webpack_require__(50);
 	exports.default = {
 		components: {
 			nvHead: __webpack_require__(15)
@@ -537,13 +525,15 @@ webpackJsonp([2,6],[
 	};
 
 /***/ },
-/* 30 */
+
+/***/ 50:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 31 */
+
+/***/ 51:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){with(this) {
@@ -566,4 +556,5 @@ webpackJsonp([2,6],[
 	}
 
 /***/ }
-]);
+
+});
