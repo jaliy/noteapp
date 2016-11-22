@@ -5,9 +5,6 @@ const AlertVue = Vue.extend(require('./box.vue'));
 
 let Message = (options = {}) => {
 	
-	
-    console.log(options)
-	
     let title = options.title || "提示",
     	isConfirm = (options.isConfirm === undefined || options.isConfirm===false) ? false : true,
         message = typeof options === 'string' ? options : options.message;
