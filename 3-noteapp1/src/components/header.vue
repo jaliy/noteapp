@@ -12,11 +12,14 @@
 	
 	/**stylesheet*/
 	.head {
-	    position: relative;
+	    position: fixed;
         height: @h-bar;
         line-height: @h-bar;
         background: @color-base;
         color: #fff;
+        left: 0;
+        top: 0;
+        width: 100%;
         z-index: 5;
 	    .btn-back {
 	        position: absolute;

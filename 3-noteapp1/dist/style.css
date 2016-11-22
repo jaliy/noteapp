@@ -197,7 +197,8 @@ html {
   font-size: .4rem;
 }
 .page-home .list {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding-top: .8rem;
 }
 .page-home .list .empty {
   padding: 2rem 0;
