@@ -1244,7 +1244,7 @@ webpackJsonp([1,6],[
 
 
 	// module
-	exports.push([module.id, "\n.row {\n  position: relative;\n  background-color: #fafafa;\n  border-bottom: 1px solid #ddd;\n  padding: .2rem .1rem;\n  overflow-x: hidden;\n  text-overflow: ellipsis;\n  word-break: break-all;\n}\n.row .txt {\n  width: 100%;\n  transition: transform 100ms ease-in-out;\n  transform: translate(0px, 0px);\n}\n.row .link {\n  display: block;\n  color: #333;\n}\n.row .btn-del {\n  position: absolute;\n  right: 0;\n  top: 0;\n  transform: translate(92px, 0px);\n  transition: transform 50ms linear;\n  height: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  align-items: center;\n  padding: 0 .4rem;\n  text-decoration: none;\n  background-color: #ed4040;\n  color: #fff;\n}\n.row.transform .txt {\n  transform: translate(-92px, 0px);\n}\n.row.transform .btn-del {\n  transform: translate(0px, 0px);\n}\n", ""]);
+	exports.push([module.id, "\n.row {\n  position: relative;\n  background-color: #fafafa;\n  border-bottom: 1px solid #ddd;\n  padding: .2rem .1rem;\n  overflow-x: hidden;\n  text-overflow: ellipsis;\n  word-break: break-all;\n}\n.row .txt {\n  width: 100%;\n  transition: transform 100ms ease-in-out;\n  transform: translate(0, 0);\n}\n.row .link {\n  display: block;\n  color: #333;\n}\n.row .btn-del {\n  position: absolute;\n  right: 0;\n  top: 0;\n  transform: translate(1.6rem, 0);\n  transition: transform 50ms linear;\n  height: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  justify-content: center;\n  -webkit-justify-content: center;\n  align-items: center;\n  -webkit-align-items: center;\n  text-decoration: none;\n  background-color: #ed4040;\n  width: 1.6rem;\n  color: #fff;\n}\n.row.transform .txt {\n  transform: translate(-1.6rem, 0);\n}\n.row.transform .btn-del {\n  transform: translate(0, 0);\n}\n", ""]);
 
 	// exports
 
@@ -1277,6 +1277,9 @@ webpackJsonp([1,6],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//
+	//
+	//
 	//
 	//
 	//

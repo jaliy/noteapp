@@ -23,7 +23,7 @@
 		.txt {
 			width: 100%;
 			transition: transform 100ms ease-in-out;
-			transform:translate(0px, 0px);
+			transform:translate(0, 0);
 		}
         .link {
             display: block;
@@ -33,25 +33,28 @@
 		    position: absolute;
 		    right:0;
 		    top:0;
-			transform: translate(92px, 0px);
+			transform: translate(1.6rem, 0);
 		    transition: transform 50ms linear;
 		    height: 100%;
 		    display: -webkit-box;
 		    display: -webkit-flex;
 		    display: flex;
 		    -webkit-box-align: center;
+	        justify-content: center;
+	        -webkit-justify-content: center;
 		    align-items:center;
-		    padding: 0 .4rem;
+		    -webkit-align-items: center;
 		    text-decoration: none; 
 			background-color: #ed4040;
+		    width: 1.6rem;
 			color: #fff;
 		}
 		&.transform {
 			.txt {
-				transform:translate(-92px, 0px)
+				transform:translate(-1.6rem, 0)
 			}
 			.btn-del {
-				transform:translate(0px, 0px)
+				transform:translate(0, 0)
 			}
 		}
 	}
