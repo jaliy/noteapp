@@ -50,6 +50,10 @@
 	    h1 {
 	        text-align: center;
 	        font-size: 0.4rem;
+            padding: 0 1rem;
+            white-space: nowrap;
+    		text-overflow: ellipsis;
+		    overflow: hidden;
 	    }
 	}
 </style>

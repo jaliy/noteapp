@@ -9,6 +9,7 @@
 
 * 1-combine : 整合vue + Vue-Router + Webpack, 在线 [Demo](http://jaliy.github.io/noteapp/1-combine/)
 * 2-less-simplecomponent : 搭建开发环境，简单的header组件，在线 [Demo](http://jaliy.github.io/noteapp/2-less-simplecomponent/)
+* 3-noteapp : 使用Vue + localStorage完成一个简单的在线笔记功能，在线 [Demo](http://jaliy.github.io/noteapp/3-noteapp/)
 
 ###项目地址：
 

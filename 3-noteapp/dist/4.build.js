@@ -491,7 +491,7 @@ webpackJsonp([4,6],[
 
 
 	// module
-	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: fixed;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n  left: 0;\n  top: 0;\n  width: 100%;\n  z-index: 5;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: flex;\n  -webkit-box-align: center;\n  width: 1rem;\n  height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head .btn-back:after {\n  content: '';\n  border-bottom: 3px solid #ddd;\n  border-left: 3px solid #ddd;\n  transform: rotate(45deg);\n  display: block;\n  width: .32rem;\n  height: .32rem;\n  position: absolute;\n  left: 35%;\n  top: 50%;\n  margin-top: -0.2rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n}\n", ""]);
+	exports.push([module.id, "/**less variable define*/\n/**stylesheet*/\n.head {\n  position: fixed;\n  height: 0.8rem;\n  line-height: 0.8rem;\n  background: #42B983;\n  color: #fff;\n  left: 0;\n  top: 0;\n  width: 100%;\n  z-index: 5;\n}\n.head .btn-back {\n  position: absolute;\n  left: 0;\n  top: 0;\n  display: flex;\n  -webkit-box-align: center;\n  width: 1rem;\n  height: 0.8rem;\n  color: #fff;\n  font-weight: bold;\n  text-align: center;\n  font-size: .8rem;\n}\n.head .btn-back:after {\n  content: '';\n  border-bottom: 3px solid #ddd;\n  border-left: 3px solid #ddd;\n  transform: rotate(45deg);\n  display: block;\n  width: .32rem;\n  height: .32rem;\n  position: absolute;\n  left: 35%;\n  top: 50%;\n  margin-top: -0.2rem;\n}\n.head h1 {\n  text-align: center;\n  font-size: 0.4rem;\n  padding: 0 1rem;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n}\n", ""]);
 
 	// exports
 
@@ -783,6 +783,10 @@ webpackJsonp([4,6],[
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
+	//
+	//
+	//
+	//
 	//
 	//
 	//
