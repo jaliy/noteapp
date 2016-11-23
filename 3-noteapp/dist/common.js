@@ -88,7 +88,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/noteapp/3-noteapp1/dist/";
+/******/ 	__webpack_require__.p = "/noteapp/3-noteapp/dist/";
 /******/ })
 /************************************************************************/
 /******/ ([]);

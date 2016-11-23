@@ -8,7 +8,7 @@ module.exports = {
         path: __dirname + "/dist",
         filename: "build.js",
         chunkFilename: "[id].build.js",
-        publicPath: "/noteapp/3-noteapp1/dist/",
+        publicPath: "/noteapp/3-noteapp/dist/",
     },
     module: {
   		loaders: [{

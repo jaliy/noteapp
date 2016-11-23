@@ -1,6 +1,6 @@
 <template>
 	<header class="head">
-		<a v-if="isSubNav" class="btn-back" @click="goHome" href="javascript:;">&lt;</a>
+		<a v-if="isSubNav" class="btn-back" @click="goHome" href="javascript:;"></a>
 		<h1>{{title}}</h1>
 	</header>
 </template>
@@ -25,14 +25,27 @@
 	        position: absolute;
 	        left: 0;
 	        top: 0;
-	        display: inline-block;
+		    display: flex;
+		    -webkit-box-align: center;
 	        width: 1rem;
 	        height: @h-bar;
-	        line-height: @h-bar;
 	        color: #fff;
 	        font-weight: bold;
 	        text-align: center;
 	        font-size: .8rem;
+	        &:after {
+        	    content: '';
+			    border-bottom: 3px solid #ddd;
+			    border-left: 3px solid #ddd;
+			    transform: rotate(45deg);
+			    display: block;
+			    width: .32rem;
+			    height: .32rem;
+			    position: absolute;
+			    left: 35%;
+			    top: 50%;
+			    margin-top: -.2rem;
+	        }
 	    }
 	    h1 {
 	        text-align: center;

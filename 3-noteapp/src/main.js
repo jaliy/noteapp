@@ -11,7 +11,7 @@ const router = new VueRouter({
 	//default to hash, availble value[hash, history]
     mode: 'hash',
     
-	base: '/noteapp/3-noteapp1',
+	base: '/noteapp/3-noteapp',
 	
     // （缩写）相当于 routes: routes
     routes
