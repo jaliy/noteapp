@@ -1388,6 +1388,7 @@ webpackJsonp([1,6],[
 			}
 		},
 		mounted: function mounted() {
+			this.isRightToLeft = false;
 			(0, _webpackZepto2.default)(document).off("touchstart", this.resetLi).on("touchstart", this.resetLi, true);
 		},
 		destoryed: function destoryed() {

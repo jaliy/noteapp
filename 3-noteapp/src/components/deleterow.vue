@@ -112,6 +112,7 @@
 			}
 		},
 		mounted() {
+			this.isRightToLeft = false;
 			$(document).off("touchstart", this.resetLi).on("touchstart", this.resetLi, true);
 		},
 		destoryed() {
