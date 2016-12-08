@@ -77,6 +77,7 @@ webpackJsonp([1,6],[
 	//
 	//
 	//
+	//
 
 	__webpack_require__(12);
 	__webpack_require__(13);
@@ -98,6 +99,12 @@ webpackJsonp([1,6],[
 		},
 		mounted: function mounted() {
 			this.list = sto.findAll().reverse();
+		},
+
+		methods: {
+			reRenderList: function reRenderList() {
+				this.list = sto.findAll().reverse();
+			}
 		}
 	};
 
@@ -1378,17 +1385,17 @@ webpackJsonp([1,6],[
 				(0, _Box.confirm)("确认删除？").then(function (res) {
 					if (res) {
 						sto.deleteOne(_this.id);
-						_this.$parent.list = sto.findAll().reverse();
+						_this.$emit('delete');
 						(0, _Toast2.default)("删除成功");
 					}
 				});
 			},
 			resetLi: function resetLi() {
+				this.isRightToLeft = false;
 				(0, _webpackZepto2.default)(this.$el).parent().find(".transform").removeClass("transform");
 			}
 		},
 		mounted: function mounted() {
-			this.isRightToLeft = false;
 			(0, _webpackZepto2.default)(document).off("touchstart", this.resetLi).on("touchstart", this.resetLi, true);
 		},
 		destoryed: function destoryed() {
@@ -3574,6 +3581,9 @@ webpackJsonp([1,6],[
 	      attrs: {
 	        "title": l.title,
 	        "id": l.id
+	      },
+	      on: {
+	        "delete": reRenderList
 	      }
 	    })
 	  })]) : _e(), " ", (list.length == 0) ? _h('div', {

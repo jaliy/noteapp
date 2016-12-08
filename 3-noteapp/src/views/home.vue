@@ -3,7 +3,8 @@
 		<nv-head :is-sub-nav="false" title="老王笔记"></nv-head>
 		<div class="list">
 			<ul v-if="list.length>0">
-				<delete-row v-for="l in list" :title="l.title" :id="l.id"></delete-row>
+				<!-- 自定义事件delete，提供给子组件调用-->
+				<delete-row v-for="l in list" :title="l.title" :id="l.id" @delete="reRenderList" ></delete-row>
 			</ul>
 			<div class="empty" v-if="list.length==0">
 				暂无笔记
@@ -33,6 +34,11 @@
 		},
 		mounted() {
 			this.list = sto.findAll().reverse();
+		},
+		methods:{
+			reRenderList() {
+				this.list = sto.findAll().reverse();
+			}
 		}
 	}
 </script>

@@ -102,17 +102,17 @@
 				confirm("确认删除？").then((res) => {
 					if(res) {
 						sto.deleteOne(this.id);
-						this.$parent.list = sto.findAll().reverse();
+						this.$emit('delete');
 						Toast("删除成功");
 					}
 				});
 			},
 			resetLi() {
+				this.isRightToLeft = false;
 				$(this.$el).parent().find(".transform").removeClass("transform");
 			}
 		},
 		mounted() {
-			this.isRightToLeft = false;
 			$(document).off("touchstart", this.resetLi).on("touchstart", this.resetLi, true);
 		},
 		destoryed() {
