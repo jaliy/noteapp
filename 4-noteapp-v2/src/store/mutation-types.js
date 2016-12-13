@@ -1,0 +1,2 @@
+export const NOTE_LOADLIST = 'NOTE_LOADLIST'
+export const NOTE_DELETEONE = 'NOTE_DELETEONE'
